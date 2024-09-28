@@ -62,7 +62,8 @@ export default {
 				}
 			},
 			backgroundImage: {
-				'hero-banner': "url('/portoHack-288.jpg')"
+				'hero-banner': "url('/portoHack-288.jpg')",
+				'hero-banner-about': "url('/portoHack-497.jpg')",
 			}
 		}
 	},

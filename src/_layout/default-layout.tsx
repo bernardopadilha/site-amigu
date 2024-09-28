@@ -1,7 +1,7 @@
-import { Header } from "@/components/header";
-import { Button } from "@/components/ui/button";
-import { ChevronsUpIcon } from "lucide-react";
 import { Outlet } from "react-router-dom";
+import { Header } from "@/components/header";
+import { ChevronsUpIcon } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export function DefaultLayout() {
   return (
@@ -17,6 +17,7 @@ export function DefaultLayout() {
         >
           <ChevronsUpIcon />
         </Button>
+
       </main>
   )
 }

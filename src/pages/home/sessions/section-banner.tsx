@@ -1,6 +1,3 @@
-import { Badge } from "@/components/ui/badge";
-import { MoveRightIcon } from "lucide-react";
-
 export function SectionBanner() {
   return (
     <section className="h-[45rem]  bg-hero-banner bg-no-repeat bg-center bg-cover">

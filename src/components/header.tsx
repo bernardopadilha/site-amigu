@@ -25,7 +25,7 @@ export function Header() {
   const { pathname } = useLocation()
 
   return (
-    <header className="w-full fixed border-b h-24 bg-zinc-900/50 border-zinc-600 backdrop-blur-sm">
+    <header className="w-full fixed border-b h-24 bg-zinc-900/50 border-zinc-600 z-50 backdrop-blur-sm">
       <div className="flex h-full items-center justify-between max-w-6xl px-8  mx-auto">
         <a href="/"><img src="/logo-amigu-branco.png" width={140} height={60} /></a>
        
